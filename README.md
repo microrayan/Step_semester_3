@@ -4,6 +4,12 @@ Semester 3 — Version Control & Daily Workflow Standard
 
 ## Date: 10-10-2026
 **Today's Work:**
+- Solved Week 2 Assignment — 5 Problems on `feature/session_2`:
+  1. `AtmPinValidator.java`: ATM PIN length validator checking exact 4-digit requirement.
+  2. `WordReversalEncoder.java`: Mirror text mini-game sentence word reversal encoder.
+  3. `ProductInventoryCsvParser.java`: Warehouse inventory CSV record parser and validator.
+  4. `LibraryIsbnValidator.java`: Library system ISBN code normalizer and 13-character validator.
+  5. `FilteredWordFrequencyReport.java`: Stop-word-filtered feedback word frequency counter and sorter.
 - Solved Day 2 Live-Coding Session — 5 Problems on `feature/session_2`:
   1. `VowelConsonantCounter.java`: Library orientation kiosk vowel and consonant counter using `charAt()` traversal.
   2. `CsvStudentRecordParser.java`: T&P CSV student record parser with field count validation.
@@ -25,7 +31,7 @@ Semester 3 — Version Control & Daily Workflow Standard
 - Organized code under `day2_live_coding/class_problems` and `day2_live_coding/assigment_problems` sub-packages.
 
 **Next Session Plan:**
-- Begin Week 2 Assignment exercises on `feature/session_2`.
+- Begin Session 3 / Day 3 live-coding and assignment exercises on a dedicated feature branch created from `develop`.
 
 **Issues Faced:**
 - None
