@@ -1,0 +1,18 @@
+package string.assigment_problems;
+
+import java.util.Arrays;
+
+public class AnagramCheck {
+    public static boolean isAnagram(String s1, String s2) {
+        if (s1 == null || s2 == null) return false;
+        char[] c1 = s1.replaceAll("\\s+", "").toLowerCase().toCharArray();
+        char[] c2 = s2.replaceAll("\\s+", "").toLowerCase().toCharArray();
+        Arrays.sort(c1);
+        Arrays.sort(c2);
+        return Arrays.equals(c1, c2);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Is Anagram: " + isAnagram("listen", "silent"));
+    }
+}
